@@ -109,7 +109,7 @@ once its cloned, follow the guide to help you you through installing, running, a
 - URL: http://localhost/VibeBox-DJ-App/admin-login.php
 - Username: dj
 - Password: vibebox*
-NB//if this doesnt work reach me @mmusilab2@gmail.com //
+NB//if this doesnt work reach me @musilab2@gmail.com //
 
 Admin panel shows:
 - Most requested songs
