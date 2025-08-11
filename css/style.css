@@ -1,0 +1,150 @@
+/* General Reset & Body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #000;
+  color: #fff;
+  background-image: url('../assets/bg.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Centered Content Layout */
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.center-content {
+  background: rgba(0,0,0,0.7);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+/* Headings */
+.logo-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00f0ff;
+}
+.motto {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-group {
+  margin-top: 20px;
+}
+.btn-request, .btn-submit {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #00f0ff;
+  color: #000;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn-request:hover, .btn-submit:hover {
+  background: #00cdd2;
+}
+.alt {
+  background: #fff !important;
+}
+
+/* Admin Link */
+.admin-link {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.admin-link a {
+  color: #00f0ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Form Containers */
+.form-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  background: #1a1a1a;
+  color: #fff;
+}
+textarea {
+  resize: none;
+}
+
+/* Back Links */
+.back-link {
+  margin-top: 15px;
+}
+.back-link a {
+  color: #00f0ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Admin Dashboard Styles */
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  background: #111;
+  color: #fff;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #222;
+}
+th {
+  background: #00f0ff;
+  color: #000;
+}
+.charts {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.charts > div {
+  flex: 1;
+  min-width: 300px;
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Logout link */
+a.logout {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #00f0ff;
+  text-decoration: none;
+  font-weight: bold;
+}

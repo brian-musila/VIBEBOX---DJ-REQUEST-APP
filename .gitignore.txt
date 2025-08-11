@@ -1,0 +1,22 @@
+# Ignore vendor folder (if using Composer)
+vendor/
+
+# Ignore environment/config files
+.env
+config.php
+database.php
+
+
+# Ignore IDE/project files
+*.log
+*.tmp
+*.cache
+*.bak
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore OS files
+ehthumbs.db
+Icon?
